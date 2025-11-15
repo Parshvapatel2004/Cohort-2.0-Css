@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: sans-serif;
+}
+nav {
+  padding: 3.2rem;
+  background-color: rgb(3, 26, 54);
+  color: white;
+}
+nav p {
+  margin-top: 0.8rem;
+  font-style: italic;
+  font-weight: lighter;
+}
+nav h2 {
+  font-size: xx-large;
+}
+.card {
+  width: 85%;
+  margin: 1rem auto;
+  border-radius: 3px;
+  background: blueviolet;
+  padding: 3rem 10rem;
+}
+.card p {
+  background: white;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+.card:nth-child(2) {
+  background-color: rgb(251, 251, 251);
+}
+.card:nth-child(3) {
+  background-color: rgb(218, 240, 255);
+}
+.card:nth-child(4) {
+  background-color: rgb(230, 238, 180);
+}
+.card:nth-child(5) {
+  background-color: rgb(227, 214, 243);
+}
+.card:nth-child(6) {
+  background-color: rgb(193, 244, 218);
+}
+@media screen and (max-width: 767px) {
+  .container .card p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+}

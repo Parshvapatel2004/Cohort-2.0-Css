@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-vector/dynamic-candlestick-chart-financial-analysis_1308-182195.jpg?semt=ais_hybrid&w=740&q=80);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  height: 300px;
+  width: 70%;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#box {
+  height: 46px;
+  width: 100%;
+  background: linear-gradient(white, #a7cae2);
+  position: absolute;
+  top: 100%;
+  
+  transition: all ease 1s;
+
+
+  /* padding: 10px 10px; */
+  text-align: center;
+  font-size: 25px;
+  color:#005CA1;
+}
+
+.card:hover #box {
+  top: 85%;
+}

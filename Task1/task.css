@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: whitesmoke;
+}
+
+#Upper {
+  width: 100%;
+  height: 250px;
+  background-color: rgba(26, 36, 52);
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 50px;
+}
+#up {
+  padding: 20px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#Aboutme {
+  height: 190px;
+  width: 1220px;
+  background-color: rgb(251, 251, 251);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  font-size: 25px;
+  font-weight: 100px;
+}
+#aboutm {
+  font-size: 15px;
+  padding: 20px;
+  font-weight: 10px;
+}
+
+#Educ {
+  height: 250px;
+  width: 1220px;
+  background-color: rgba(218, 240, 255);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 100px;
+}
+
+.Ed1 {
+  padding: 12px;
+  margin: auto;
+  margin-top: 9px;
+  height: 50px;
+  width: auto;
+  width: 850px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 5px;
+}
+
+#skills {
+  height: 430px;
+  width: 1220px;
+  background-color: rgb(230, 238, 180);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 100px;
+  font-weight: bold ;
+}
+
+.sk {
+  padding: 12px;
+  margin: auto;
+  margin-top: 9px;
+  height: 50px;
+  width: auto;
+  width: 550px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 100px;
+}
+
+#Projects {
+  height: 310px;
+  width: 1220px;
+  background-color: rgb(227, 214, 243);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 100px;
+}
+
+#contact {
+  height: 310px;
+  width: 1220px;
+  background-color: rgb(193, 244, 218);
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 100px;
+}
+
+.pro {
+  padding: 12px;
+  margin: auto;
+  margin-top: 9px;
+  height: 50px;
+  width: auto;
+  width: 850px;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 5px;
+}
+
+#footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(26, 36, 52);
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  padding: 35px;
+  font-size: 15px;
+  font-weight: 10px;
+}

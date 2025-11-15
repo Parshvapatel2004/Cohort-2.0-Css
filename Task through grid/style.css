@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Ser;
+  src: url(./sf-pro-text_regular.woff2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ser;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  padding: 1rem 5%;
+  background-color: #ffffff;
+}
+nav h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav div {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav div a {
+  text-decoration: none;
+  color: #7b7b7b;
+  font-weight: 500;
+}
+.button {
+  justify-content: end;
+  gap: 15px;
+}
+.button #first {
+  background-color: #ffffff;
+  border: 2px solid #0061fd;
+  border-radius: 40px;
+  padding: 1rem 30px;
+  color: #0061fd;
+  cursor: pointer;
+}
+
+.button #first:hover{
+    background-color: #0061fd;
+    color: white;
+}
+
+.button #last {
+  background-color: #0061fd;
+  border: none;
+  border-radius: 40px;
+  padding: 1rem 30px;
+  color: white;
+  cursor: pointer;
+}
+

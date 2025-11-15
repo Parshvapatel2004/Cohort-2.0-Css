@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: grid;
+}
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    grid-gap: 10px;
+    grid-template-areas: "header header"
+                         "aside section"
+                         "footer footer";
+}
+
+
+header{
+    background-color: gold;
+    grid-area: header;
+}
+
+aside{
+    background-color: rgb(41, 26, 63);
+    grid-area: aside;
+
+}
+section{
+    background-color: rgb(151, 169, 210);
+    grid-area: section;
+}
+footer{
+    background-color: rgb(233, 44, 189);
+    grid-area: footer;
+}  */
+
+/* 
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 300px 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "section section section"
+                         "divleft bootomup divright"
+                         "divleft bottomdown divright";
+    grid-gap: 10px ;
+    
+} */
+/* 
+header{
+    background-color: gray;
+    grid-area: header;
+}
+section{
+    background-color: rgb(145, 35, 35);
+    grid-area: section;
+
+}
+#divleft{
+    background-color: rgb(18, 204, 198);
+    grid-area: divleft;
+
+}
+#bootomup{
+    background-color: rgb(119, 199, 0);
+    grid-area: bootomup;
+
+}
+
+#bottomdown{
+    background-color: rgb(215, 255, 155);
+    grid-area: bottomdown;
+
+}
+
+#divright{
+    background-color: pink;
+    grid-area: divright;
+
+} */
+
+main {
+  height: 100%;
+  width: 100%;
+
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 25% 400px;
+  grid-template-areas:
+    "left-top top-mid1 right-top"
+    "left-top top-mid2 right-bottom"
+    "left-bottom left-bottom right-bottom";
+
+  padding: 50px 50px;
+  grid-gap: 10px;
+}
+
+#left-top {
+  background-image: url(https://plus.unsplash.com/premium_photo-1664303847960-586318f59035?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  position: center;
+  grid-area: left-top;
+}
+
+#top-mid1 {
+  background-image: url(https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  position: center;
+  grid-area: top-mid1;
+}
+
+#top-mid2 {
+  background-image: url(https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+  grid-area: top-mid2;
+}
+
+#right-top {
+  background-image: url(https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D);
+  background-size: cover;
+
+  grid-area: right-top;
+}
+
+#right-bottom {
+  background-image: url(https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNhcnN8ZW58MHx8MHx8fDA%3D);
+  background-size: cover;
+
+  grid-area: right-bottom;
+}
+
+#left-bottom {
+  background-image: url(https://media.istockphoto.com/id/2164202003/photo/close-up-of-yellow-car-on-road.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ttld8USr6gvwMhPsi0xDDG41Ib58pBHj_kx8omVolYc=);
+  background-size: cover;
+  position: center;
+  
+
+  grid-area: left-bottom;
+}
+
+.b{
+  border-radius: 20px;
+}
